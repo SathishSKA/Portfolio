@@ -2,12 +2,16 @@ import React from "react";
 import { FaBootstrap } from "react-icons/fa";
 import { SiFlutter } from "react-icons/si";
 
-import resume from "../assets/rimsha-resume.pdf";
+import resume from "../assets/new-resume.pdf";
 
 const About = () => {
   return (
     <div className="container-fluid bg-secondary pt-5 d-flex flex-column align-items-center min-vh-100">
-      <p className="text-center text-light lead m-4">I'm a full stack web developer who love to create responsive websites using React JS, JavaScript, Bootstrap , Node Js and Mongo DB. I've done few own projects and looking for an opportunity to work and excel my skills in an organization and interested to explore and work on complex projects.</p>
+      <p className="text-center text-light lead m-4">I'm a full stack web developer who love to create responsive websites using HTML, CSS, Bootstrap, JavaScript, React JS, Node Js and Mongo DB. I've done few own projects and looking for an opportunity to work and excel my skills in an organization and interested to explore and work on complex projects.</p>
+      <h3 className="pt-3 pb-2 fw-bold custom-color">Educational Qualification </h3>
+      <br />
+      <h4>Bcom.(CS), MBA</h4>
+
       <h3 className="pt-5 pb-2 fw-bold custom-color">Languages and tools I use:</h3>
       <br />
       <p className="lead">
@@ -21,9 +25,7 @@ const About = () => {
         <img className="m-2" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="vscode" width="60" height="60" />
         <img className="m-2" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="git" width="60" height="60" />
       </p>
-      <h3 className="pt-3 pb-2 fw-bold custom-color">Educational Qualification </h3>
-      <br />
-      <h4>Bcom.(CS), MBA</h4>
+
       <p className="lead fw-bold" style={{ color: "#53c1f2" }}>
         {/* <SiFlutter className="m-2" style={{ width: "35", height: "35", color: "#53c1f2" }} />
         Flutter */}

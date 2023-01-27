@@ -10,7 +10,7 @@ const Contact = () => {
 
     emailjs
       // service id, template id and your public key, get these by registering on EmailJs
-      .sendForm("service_k0yf07i", "template_d3i9txs", form.current, "Dm939mnlPcJjrKRMC")
+      .sendForm("service_diihtle", "template_4ceut4c", form.current, "39g5gE9bZnYszcjBY")
       .then(
         () => {
           alert("Message successfully sent!");
@@ -29,19 +29,19 @@ const Contact = () => {
           <form ref={form} onSubmit={sendEmail}>
             <ul style={{ listStyle: "none" }} className="p-4">
               <li className="m-3 shadow-sm">
-                <input className="form-control form-class" placeholder="Name" type="text" name="name" required />
+                <input className="form-control form-class" placeholder="Name" type="text" name="user_name" required />
               </li>
               <li className="m-3 shadow-sm">
-                <input className="form-control form-class" placeholder="Email" type="email" name="email" required />
+                <input className="form-control form-class" placeholder="Email" type="email" name="user_email" required />
               </li>
               <li className="m-3 shadow-sm">
-                <input placeholder="Subject" className="form-control form-class" type="text" name="subject" required />
+                <input placeholder="Subject" className="form-control form-class" type="text" name="Subject" required />
               </li>
               <li className="m-3 shadow-sm">
                 <textarea placeholder="Message" name="message" required className="form-control form-class"></textarea>
               </li>
               <li>
-                <input type="submit" className="btn btn-primary custom-btn fw-bold m-3 px-5" value="SEND" />
+                <input type="submit" className="btn btn-primary custom-btn fw-bold m-3 px-5" value="Send" />
               </li>
             </ul>
           </form>

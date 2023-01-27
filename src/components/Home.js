@@ -10,7 +10,7 @@ const Home = () => {
           <div className="ms-sm-5 ps-sm-5 d-flex flex-column text-center align-items-center align-items-lg-start">
             <h1 className="">Hi, I'm Sathish Kumar</h1>
             <h4 className="fw-bold custom-font">Full Stack Web Developer</h4> <br />
-            <p className="pt-5"> Java Script | React | Node JS | Mongo DB</p>
+            <p className="pt-5"> Java Script | React JS | Node JS | Mongo DB</p>
             <NavLink to="/projects">
               <button className="btn btn-primary custom-btn ps-5 pe-5 fw-bold mt-2">My Work</button>
             </NavLink>
