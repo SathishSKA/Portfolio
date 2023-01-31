@@ -1,6 +1,6 @@
 import React from "react";
 import { useRef } from "react";
-import { Player } from "@lottiefiles/react-lottie-player";
+
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {
@@ -46,9 +46,6 @@ const Contact = () => {
             </ul>
           </form>
         </div>
-        {/* <div>
-          <Player src="https://assets10.lottiefiles.com/packages/lf20_u25cckyh.json" className="player d-md-none d-lg-block" loop autoplay style={{ maxHeight: "500px", maxWidth: "500px" }} />
-        </div> */}
       </div>
     </div>
   );

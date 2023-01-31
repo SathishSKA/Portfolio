@@ -44,14 +44,7 @@ body {
   background-color: var(--clr-primary-3);
 }
 
-/* .custom-btn:hover {
-  border-color: var(--clr-primary-3);
-  background-color: rgb(18, 5, 72);
-  color: var(--clr-primary-3);
-} */
 .link {
-  /* color: var(--clr-primary-3); */
-  /* color: #ec6e59; */
   color: rgb(17, 2, 53);
   list-style: none;
   text-decoration: none;
@@ -63,7 +56,6 @@ body {
 }
 .active {
   border-bottom-color: var(--clr-primary-3);
-  /* border-bottom: 3px solid #ec6e59; */
   border-bottom: 3px solid var(--clr-primary-3);
 }
 
@@ -84,7 +76,6 @@ body {
 .custom-font {
   font-style: italic;
   font-weight: 600;
-  /* color: var(--clr-primary-3); */
   color: lightblue;
 }
 

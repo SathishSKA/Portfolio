@@ -1,7 +1,5 @@
 import React from "react";
 import { FaBootstrap } from "react-icons/fa";
-import { SiFlutter } from "react-icons/si";
-
 import resume from "../assets/new-resume.pdf";
 
 const About = () => {
@@ -26,10 +24,7 @@ const About = () => {
         <img className="m-2" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="git" width="60" height="60" />
       </p>
 
-      <p className="lead fw-bold" style={{ color: "#53c1f2" }}>
-        {/* <SiFlutter className="m-2" style={{ width: "35", height: "35", color: "#53c1f2" }} />
-        Flutter */}
-      </p>
+      <p className="lead fw-bold" style={{ color: "#53c1f2" }}></p>
 
       <a href={resume} download className="btn btn-primary mt-5 custom-btn fw-bold">
         Download My Resume
