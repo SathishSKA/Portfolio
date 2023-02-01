@@ -1,6 +1,6 @@
 import React from "react";
 import { FaBootstrap } from "react-icons/fa";
-import resume from "../assets/new-resume.pdf";
+import resume from "../assets/Resume.pdf";
 
 const About = () => {
   return (
